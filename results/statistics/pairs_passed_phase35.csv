@@ -1,0 +1,2 @@
+a,b,bucket,subcluster,corr,pval_fdr,alpha_train,beta_train,eg_pval_train,oos_nobs,adf_pval_spread_oos,pass_oos_spread_stationary
+CRM,NOW,tech,software,0.6962785603477115,0.0028917687845575833,2.7664729720356527,0.576451287032173,0.0028917687845575833,1020,0.06624849198526098,True
