@@ -1,0 +1,21 @@
+Run timestamp (UTC): 2026-02-22T06:23:14.392329+00:00
+Start requested: 2016-01-01
+Tickers requested: 56
+Tickers after ADV filter (>= $5,000,000): 56
+Overlap date range (max start to min end): 2016-01-04 -> 2026-02-20
+Aligned dataset shape (rows, tickers): (2548, 56)
+
+Top 10 lowest ADV among kept tickers:
+  GOLD: ADV_60d = $34,909,215 | commodities/miners
+  APA: ADV_60d = $154,329,691 | energy/e&p
+  MOS: ADV_60d = $182,657,239 | commodities/fertilizers
+  CF: ADV_60d = $202,838,049 | commodities/fertilizers
+  STLD: ADV_60d = $237,226,912 | commodities/steel
+  BHP: ADV_60d = $251,379,834 | commodities/miners
+  NUE: ADV_60d = $294,172,074 | commodities/steel
+  FANG: ADV_60d = $301,819,313 | energy/e&p
+  RIO: ADV_60d = $327,208,768 | commodities/miners
+  ECL: ADV_60d = $369,123,401 | commodities/chemicals
+
+Dropped tickers (ADV too low or missing):
+  None
