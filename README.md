@@ -4,8 +4,7 @@
 
 # 📈 Pairs Trading Statistical Arbitrage Pipeline
 
-> A reproducible research and backtesting framework for statistical arbitrage (pairs trading), built with transparency, diagnostic rigor, and accountability.
-
+> A research and backtesting framework for statistical arbitrage (pairs trading).
 ---
 
 ## Overview
@@ -30,13 +29,11 @@ The project is structured to make every stage inspectable and debuggable.
 
 The goal is not simply to produce returns. The goal is to build a **robust, explainable statistical arbitrage research pipeline** that:
 
-* Avoids hidden data leakage
 * Makes filtering logic explicit
 * Allows reconstruction of returns from raw signals
 * Identifies why candidate pairs fail or pass
 * Produces clean research artifacts suitable for professional review
 
-This is a research-grade backtesting workflow — not a black-box strategy script.
 
 ---
 
@@ -123,7 +120,7 @@ For filtered pairs:
 * Exit threshold logic
 * Position state tracking
 
-This stage generates trade signals, not returns.
+This stage generates trade signals.
 
 ---
 
@@ -161,7 +158,7 @@ results/phase7/portfolio_returns_REBUILT_daily.csv
 results/phase7/portfolio_perf_stats_REBUILT_daily.csv
 ```
 
-The “REBUILT” files ensure full reconstruction of returns from raw signals — eliminating hidden errors.
+The “REBUILT” files ensure full reconstruction of returns from raw signals — eliminating errors.
 
 ---
 
@@ -180,7 +177,6 @@ Root causes identified:
 * Strict half-life bounds
 * Insufficient historical overlap
 * Data alignment issues
-* Filename mismatch during ingestion (e.g. wildcard expectations)
 
 Resolution approach:
 
