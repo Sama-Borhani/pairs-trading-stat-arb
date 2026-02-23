@@ -223,7 +223,6 @@ pairs-trading-stat-arb/
 │
 ├── results/
 │   ├── statistics/
-│   ├── phase7/
 │   └── figures/
 │
 └── docs/
