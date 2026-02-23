@@ -1,7 +1,7 @@
 
 # 📈 Pairs Trading Statistical Arbitrage Pipeline
 
-> A reproducible research and backtesting framework for statistical arbitrage (pairs trading), built with transparency, diagnostic rigor, and portfolio-level accountability.
+> A reproducible research and backtesting framework for statistical arbitrage (pairs trading), built with transparency, diagnostic rigor, and accountability.
 
 ---
 
