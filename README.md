@@ -202,7 +202,7 @@ pairs-trading-stat-arb/
 ├── data/
 │   ├── raw/              # Not committed (large / licensed data)
 │   ├── sample/           # Small demo dataset (committed)
-│   └── interim/
+│   └── features/
 │
 ├── notebooks/
 │   01_data_ingestion.ipynb
