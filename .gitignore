@@ -10,5 +10,4 @@ data/interim/*
 __pycache__/
 *.pyc
 
-# results if too large (optional)
-# results/figures/*
+results/figures/*
